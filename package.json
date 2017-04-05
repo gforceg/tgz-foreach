@@ -1,6 +1,6 @@
 {
   "name": "tgz-foreach",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "modify .tgz file entries:",
   "main": "index.js",
   "scripts": {

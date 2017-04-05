@@ -1,4 +1,4 @@
 import * as assert from 'assert'
-import * as TgzModify from './index'
+import * as TgzForeach from './index'
 // test typings
-assert(typeof TgzModify == 'function')
+assert(typeof TgzForeach == 'function')
