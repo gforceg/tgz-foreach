@@ -1,6 +1,6 @@
 {
   "name": "tgz-foreach",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "modify .tgz file entries:",
   "main": "index.js",
   "scripts": {
@@ -11,10 +11,12 @@
   "dependencies": {
     "tar-stream": "^1.5.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/node": "^7.0.12"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gforceg/tgz-modify.git"
+    "url": "git+https://github.com/gforceg/tgz-foreach.git"
   },
   "keywords": [
     "tar",
@@ -23,7 +25,8 @@
     "change"
   ],
   "bugs": {
-    "url": "https://github.com/gforceg/tgz-modify/issues"
+    "url": "https://github.com/gforceg/tgz-foreach/issues"
   },
-  "homepage": "https://github.com/gforceg/tgz-modify#readme"
+  "typings": "index.d.ts",
+  "homepage": "https://github.com/gforceg/tgz-foreach#readme"
 }
